@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 81, 255);
+    border-radius: 100%;
+}
+
+.container {
+    display: flex;
+   
+}
+
+.map-column {
+    flex: auto;
+    padding: 100px;
+}
+
+.info-column {
+   flex: 1;
+    padding: 20px;
+    border-left: 1px solid ;
+}
+
+.info-table {
+    padding: 20px;
+    background-color: beige;
+    border-radius: 10px;
+   
+}
+
+.info-table tr td {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.label {
+    text-transform: uppercase;
+    background-color: antiquewhite;
+}
